@@ -40,7 +40,7 @@ png("plot3.png", width = 480, height = 480, units = "px")
 with(HPC_filtered, plot(Time, Sub_metering_1, 
                         type = "l", 
                         xlab = "", 
-                        ylab = "Global Active Power (kilowatts)"
+                        ylab = "Energy sub metering"
                         )
 )
 with(HPC_filtered, points(Time, Sub_metering_2,

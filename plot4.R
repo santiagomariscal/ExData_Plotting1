@@ -57,7 +57,7 @@ with(HPC_filtered, plot(Time, Voltage,
 with(HPC_filtered, plot(Time, Sub_metering_1, 
                         type = "l", 
                         xlab = "", 
-                        ylab = "Global Active Power (kilowatts)"
+                        ylab = "Energy sub metering"
                         )
 )
 with(HPC_filtered, points(Time, Sub_metering_2,
